@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5adcb14a-63c7-41c9-bc98-f398caf428fd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UZljlB3G2Kd0FMcJi2sq0drxm0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+      <module name="TorneioYGO" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5adcb14a-63c7-41c9-bc98-f398caf428fd" name="Default Changelist" comment="" />
+      <created>1575572135668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575572135668</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="119" key="FileChooserDialogImpl" timestamp="1590730626912">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="505" y="119" key="FileChooserDialogImpl/-1366.287.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1590730626912" />
+    <state x="674" y="420" width="356" height="169" key="Github.CreateGistDialog" timestamp="1590729785691">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="674" y="420" width="356" height="169" key="Github.CreateGistDialog/-1366.287.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1590729785691" />
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom" timestamp="1585784960873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585784960873" />
+    <state width="1345" height="172" key="GridCell.Tab.0.center" timestamp="1585784960873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585784960873" />
+    <state width="1345" height="172" key="GridCell.Tab.0.left" timestamp="1585784960873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585784960873" />
+    <state width="1345" height="172" key="GridCell.Tab.0.right" timestamp="1585784960873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585784960873" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1585702800334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585702800334" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1585702800334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585702800334" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1585702800334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585702800334" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1585702800334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585702800334" />
+    <state x="226" y="7" key="SettingsEditor" timestamp="1590730673204">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="226" y="7" key="SettingsEditor/-1366.287.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1590730673204" />
+    <state x="184" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585701349861" />
+    <state x="92" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590729884778">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="92" y="92" width="1496" height="826" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/-1366.287.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1590729884778" />
+    <state x="472" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1590730699678">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="472" y="258" key="com.intellij.ide.util.TipDialog/-1366.287.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1590730699678" />
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585783838290" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585033745237">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585033745237" />
+  </component>
+</project>

@@ -1,0 +1,180 @@
+#:import Factory kivy.factory.Factory
+# -*- coding: utf-8 -*-
+<Inicio>:
+    BoxLayout:
+        orientation: "vertical"
+        Button:
+            text: "Comecar torneio"
+            size_hint_x: 1
+		    size_hint_y: .1
+		    on_press: root.comecarTorneio()
+        Button:
+            text: "Continuar torneio"
+            size_hint_x: 1
+		    size_hint_y: .1
+		    on_press: root.continuarTorneio()
+        Button:
+            text: "Historico"
+            size_hint_x: 1
+		    size_hint_y: .1
+		    on_press: root.acessarHistorico()
+
+<DefineTorneio>:
+
+    name: "defineTorneio"
+    quantParticipantes: quantParticipantes
+    id: defineTorneio
+    GridLayout:
+        id: gridTorneio
+        orientation: "vertical"
+        cols: 1
+
+        Label:
+            text: "Número de participantes"
+            size_hint_x: 1
+        TextInput:
+            id: quantParticipantes
+            multiline: False
+            size_hint_y: 0.5
+
+        Label:
+            text: "Formato"
+            size_hint_y: .5
+        Spinner:
+            id: formatoTorneio
+            text: 'Escolha o formato'
+            values: ['Mata-mata', 'Pontos Corridos']
+            on_text: root.habilitarCampos()
+
+    BoxLayout:
+        orientation: "horizontal"
+        size_hint_y: 0.25
+        Button:
+            text: "Voltar"
+            size_hint_x: .5
+            on_release: root.voltar()
+        Button:
+            text: "Confirmar"
+            size_hint_x: .5
+            on_press: root.abrirPopUp()
+
+<NomearJogadores>:
+    name: "nomearJogadores"
+    BoxLayout:
+        orientation: "vertical"
+        id: boxPrincipal
+        Label:
+            id: lblTitulo
+            text: "Jogadores"
+            size_hint_y: 0.05
+        GridLayout:
+            id: gridLayout
+            name: "gridLayout"
+            cols: 4
+            orientation: "vertical"
+
+<MataMata>:
+    name: "mataMata"
+    BoxLayout:
+        orientation: "vertical"
+        id: boxMataMata
+
+
+<PontosCorridos>:
+    name: "pontosCorridos"
+    BoxLayout:
+        orientation: "vertical"
+        id: boxPontosCorridos
+
+<Placar>:
+    name: "placar"
+    FloatLayout:
+        id: conteudo_box
+        orientation: 'vertical'
+        Label:
+            text: "Placar"
+            size_hint_y: .1
+            pos_hint: {'right': .6, 'top': 1}
+        GridLayout:
+            canvas.before:
+                Color:
+                    rgb: 1,0,0
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            size_hint_y: .1
+            pos_hint: {'top': .9}
+            cols: 5
+            Label:
+                text: "Posicao"
+            Label:
+                text: "Jogador"
+            Label:
+                text: "Vitorias"
+            Label:
+                text: "Derrotas"
+            Label:
+                text: "Pontos"
+
+        ScrollView:
+            id: scroll_placar
+            size_hint_y: .7
+            do_scroll_y: True
+            pos_hint: {'top': .8}
+            GridLayout:
+                id: table_grid
+                size_hint_y: None
+                row_default_height: 50
+                row_force_default: True
+                height: self.minimum_height
+
+<ContinuarTorneio>:
+    name: "continuarTorneio"
+    FloatLayout:
+        Label:
+            text: "Torneios em aberto"
+            pos_hint: {'top': 1}
+            size_hint_y: .1
+        ScrollView:
+            id: scroll_torneio
+            size_hint_y: .8
+            do_scroll_y: True
+            pos_hint: {'top': .9}
+            BoxLayout:
+                id: lista_box
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+
+        Button:
+            text: "Voltar"
+            size_hint_x: .5
+            pos_hint: {'top': .1}
+            size_hint_y: .1
+            on_release: root.voltar()
+
+
+<HistoricoTorneio>:
+    name: "continuarTorneio"
+    FloatLayout:
+        Label:
+            text: "Torneios em aberto"
+            pos_hint: {'top': 1}
+            size_hint_y: .1
+        ScrollView:
+            id: scroll_torneio
+            size_hint_y: .8
+            do_scroll_y: True
+            pos_hint: {'top': .9}
+            BoxLayout:
+                id: lista_box
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+
+        Button:
+            text: "Voltar"
+            size_hint_x: .5
+            pos_hint: {'top': .1}
+            size_hint_y: .1
+            on_release: root.voltar()
